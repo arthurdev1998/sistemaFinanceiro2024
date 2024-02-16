@@ -3,7 +3,7 @@ using System.ComponentModel.DataAnnotations.Schema;
 namespace SistemaFinanceiro.Entities;
 
 [Table("SistemaFinanceiro")]
-public class SistemaFinanceiro :Base
+public class SistemaFinanceiroo :Base
 {
     public int Mes { get; set; }
     public int Ano { get; set; }

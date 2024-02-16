@@ -8,5 +8,5 @@ public class Categoria : Base
     [ForeignKey("SistemaFinanceiro")]
     public int SistemaFinanceiroId { get; set; }
 
-    public virtual SistemaFinanceiro? SistemaFinanceiro { get; set; }
+    public virtual SistemaFinanceiroo? SistemaFinanceiro { get; set; }
 }
